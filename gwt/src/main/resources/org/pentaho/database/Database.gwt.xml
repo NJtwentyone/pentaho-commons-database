@@ -4,5 +4,7 @@
         <exclude name ="**/util/DatabaseUtil.java"/>
         <exclude name ="**/DatabaseConnectionService.java"/>
         <exclude name ="**/DatabaseDialectService.java"/>        
+        <!-- ADDED for use GWT super developmer mode - https://hv-eng.atlassian.net/wiki/spaces/ENG/pages/30560845873/Setup+Data+Access+-+GWT+-+SDM+-+IntelliJ+2022+Ultimate -->
+        <exclude name ="**/dialect/**"/>
   </source>
 </module>
